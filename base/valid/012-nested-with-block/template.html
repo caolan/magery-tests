@@ -1,0 +1,11 @@
+{{#define main}}
+  <i>foo</i>
+  {{#with author}}
+    <b>bar</b>
+    <em>baz</em>
+    {{#with profile}}
+      <p>{{description}}</p>
+    {{/with}}
+  {{/with}}
+  <strong>other</strong>
+{{/define}}

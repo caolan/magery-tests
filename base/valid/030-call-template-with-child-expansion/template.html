@@ -1,0 +1,15 @@
+{{#define main}}
+  <h1>title</h1>
+  {{#foo article}}
+    <i>inner</i>
+  {{/foo}}
+{{/define}}
+
+{{#define foo}}
+  <div>
+    <b>{{title}}</b>
+    {{#with meta}}
+      {{...}}
+    {{/with}}
+  </div>
+{{/define}}

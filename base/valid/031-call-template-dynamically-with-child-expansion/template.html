@@ -1,0 +1,15 @@
+{{#define main}}
+  <h1>title</h1>
+  {{#call mytemplate article}}
+    <i>inner: {{year}}</i>
+  {{/call}}
+{{/define}}
+
+{{#define bar}}
+  <div>
+    <b>{{title}}</b>
+    {{#with meta}}
+      {{...}}
+    {{/with}}
+  </div>
+{{/define}}

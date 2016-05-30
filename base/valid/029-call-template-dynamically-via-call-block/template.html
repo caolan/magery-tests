@@ -1,0 +1,10 @@
+{{#define main}}
+  <h1>title</h1>
+  {{#with article}}
+    {{#call mytemplate meta/}}
+  {{/with}}
+{{/define}}
+
+{{#define foo}}
+  <b>{{year}}</b>
+{{/define}}

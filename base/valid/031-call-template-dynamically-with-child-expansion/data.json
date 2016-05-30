@@ -1,0 +1,9 @@
+{
+    "mytemplate": "bar",
+    "article": {
+        "title": "test",
+        "meta": {
+            "year": 2016
+        }
+    }
+}
