@@ -1,8 +1,8 @@
-{{#define main}}
-  <h1>title</h1>
-  {{#each items key=name}}
-    <section>{{name}}</section>
-    <div>separator</div>
-  {{/each}}
-  <p>footer</p>
-{{/define}}
+<div data-template="main">
+    <h1>title</h1>
+    <div data-each="item in items" data-key="{{item.name}}">
+        <section>{{name}}</section>
+        <div>separator</div>
+    </div>
+    <p>footer</p>
+</div>

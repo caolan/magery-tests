@@ -1,6 +1,4 @@
-{{#define main}}
-  <h1>title</h1>
-  {{#unless published}}
-    <b>published</b>
-  {{/unless}}
-{{/define}}
+<div data-template="main">
+    <h1>title</h1>
+    <b data-unless="published">draft</b>
+</div>

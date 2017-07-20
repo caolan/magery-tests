@@ -1,28 +1,26 @@
-{{#define main}}
-  {{#one}}
-    <i>root</i>
-  {{/one}}
-{{/define}}
+<div data-template="main">
+    <one article="article">
+        <i>root</i>
+    </one>
+</div>
 
-{{#define one}}
-  <h1>title</h1>
-  {{#two article}}
-    <i>one.1</i>
-    {{#call tmpl}}
-      <i>one.2</i>
-      {{...}}
-    {{/call}}
-  {{/two}}
-{{/define}}
+<div data-template="one">
+    <h1>title</h1>
+    <two meta="article.meta">
+        <i>one.1</i>
+        <three>
+            <i>one.2</i>
+        </three>
+        <template-children></template-children>
+    </two>
+</div>
 
-{{#define two}}
-  <b>{{meta.year}}</b>
-  {{#with meta}}
-    {{...}}
-  {{/with}}
-{{/define}}
+<div data-template="two">
+    <b>{{meta.year}}</b>
+    <template-children></template-children>
+</div>
 
-{{#define three}}
+<div data-template="three">
   <b>three</b>
-  {{...}}
-{{/define}}
+  <template-children></template-children>
+</div>

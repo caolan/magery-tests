@@ -1,4 +1,0 @@
-{
-    "html": "<h1 rel=\"{{name}}\">Hello, {{name}}!</h1>",
-    "name": "NAME"
-}

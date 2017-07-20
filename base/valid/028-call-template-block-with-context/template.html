@@ -1,10 +1,8 @@
-{{#define main}}
-  <h1>title</h1>
-  {{#with article}}
-    {{#bar meta/}}
-  {{/with}}
-{{/define}}
+<div data-template="main">
+    <h1>title</h1>
+    <bar year="meta.year"></bar>
+</div>
 
-{{#define bar}}
-  <b>{{year}}</b>
-{{/define}}
+<b data-template="bar">
+    {{year}}
+</b>

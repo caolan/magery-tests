@@ -1,15 +1,11 @@
-{{#define main}}
-  <h1>title</h1>
-  {{#foo article}}
-    <i>inner</i>
-  {{/foo}}
-{{/define}}
+<div data-template="main">
+    <h1>title</h1>
+    <foo title="title">
+        <i>inner</i>
+    </foo>
+</div>
 
-{{#define foo}}
-  <div>
+<div data-template="foo">
     <b>{{title}}</b>
-    {{#with meta}}
-      {{...}}
-    {{/with}}
-  </div>
-{{/define}}
+    <template-children></template-children>
+</div>
