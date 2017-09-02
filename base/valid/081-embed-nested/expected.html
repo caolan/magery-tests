@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<div data-bind="main">
+    <div id="container">
+        <p data-bind="greeting" data-context="{&quot;name&quot;:&quot;world&quot;}">
+            Hello, world!
+        </p>
+    </div>
+</div>
+<template class="magery-templates"><p data-template="greeting" data-embed="true">
+    Hello, {{ name }}!
+</p></template>
