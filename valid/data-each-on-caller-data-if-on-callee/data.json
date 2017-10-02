@@ -1,0 +1,7 @@
+{
+    "items": [
+        {"name": "one", "public": true},
+        {"name": "two", "public": true},
+        {"name": "three", "public": false}
+    ]
+}

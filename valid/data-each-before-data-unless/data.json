@@ -1,0 +1,7 @@
+{
+    "items": [
+        {"name": "one", "hidden": false},
+        {"name": "two", "hidden": true},
+        {"name": "three", "hidden": false}
+    ]
+}
