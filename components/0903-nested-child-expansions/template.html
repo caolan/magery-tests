@@ -1,0 +1,26 @@
+<template data-tagname="app-main">
+    <app-one article="{{article}}">
+        <i>root</i>
+    </app-one>
+</template>
+
+<template data-tagname="app-one">
+    <h1>title</h1>
+    <app-two meta="{{article.meta}}">
+        <i>one.1</i>
+        <app-three>
+            <i>one.2</i>
+        </app-three>
+        <template-children></template-children>
+    </app-two>
+</template>
+
+<template data-tagname="app-two">
+    <b>{{meta.year}}</b>
+    <template-children></template-children>
+</template>
+
+<template data-tagname="app-three">
+  <b>three</b>
+  <template-children></template-children>
+</template>
