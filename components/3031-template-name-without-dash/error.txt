@@ -1,0 +1,1 @@
+Template name "app" is incorrect, it's mandatory that template name include a "-" character
