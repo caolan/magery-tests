@@ -1,0 +1,1 @@
+In text "{{ def" variable should be escaped with "{{" before and  "}}"
