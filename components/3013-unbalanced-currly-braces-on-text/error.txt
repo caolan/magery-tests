@@ -1,1 +1,5 @@
-In text "}} def {{" variable should be escaped with "{{" before and  "}}"
+In file: /magery-tests/components/3013-unbalanced-currly-braces-on-text/template.html
+At line: 1
+Variables should be escape between "{{" and "}}"
+}} def {{
+       ^^

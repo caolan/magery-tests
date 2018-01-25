@@ -1,1 +1,5 @@
+In file: /magery-tests/components/3031-template-name-without-dash/template.html
+At line: 0
 Template name "app" is incorrect, it's mandatory that template name include a "-" character
+<template data-tagname="app">
+                        ^^^
