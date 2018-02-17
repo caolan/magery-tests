@@ -1,7 +1,9 @@
 <template data-tagname="app-entry">
-    {{ name }}
+    <p>{{ name }}</p>
 </template>
 
 <template data-tagname="app-main">
-    <app-entry data-each="item in items" name="{{ item.name }}"></app-entry>
+    <div>
+        <app-entry data-each="item in items" name="{{ item.name }}"></app-entry>
+    </div>
 </template>

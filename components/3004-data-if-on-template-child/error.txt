@@ -1,0 +1,1 @@
+Template "app-main" uses data-if attribute on top-level child element. Templates must always render a single top-level child element.

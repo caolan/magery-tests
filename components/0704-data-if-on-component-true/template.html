@@ -1,7 +1,9 @@
 <template data-tagname="app-greeting">
-    Hello, {{ name }}!
+    <p>Hello, {{ name }}!</p>
 </template>
 
 <template data-tagname="app-main">
-    <app-greeting data-if="greet" name="{{ name }}"></app-greeting>
+    <div>
+        <app-greeting data-if="greet" name="{{ name }}"></app-greeting>
+    </div>
 </template>

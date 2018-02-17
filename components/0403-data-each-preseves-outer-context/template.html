@@ -1,8 +1,10 @@
 <template data-tagname="app-main">
-    <h1>{{item.name}}</h1>
-    <div data-each="item in items">
-        <section>{{item.name}} by {{item.author}}</section>
-        <div>separator</div>
+    <div>
+        <h1>{{item.name}}</h1>
+        <div data-each="item in items">
+            <section>{{item.name}} by {{item.author}}</section>
+            <div>separator</div>
+        </div>
+        <p>by {{item.author}}</p>
     </div>
-    <p>by {{item.author}}</p>
 </template>
