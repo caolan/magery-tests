@@ -1,1 +1,3 @@
-In text "{{ def" variable should be escaped with "{{" before and  "}}"
+Variables should be escape between "{{" and "}}"
+<template data-tagname="app-main">{{ def</template>
+                                  ^^^^^^^^^^^^^^^^^
