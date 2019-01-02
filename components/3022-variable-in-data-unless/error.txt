@@ -1,1 +1,5 @@
-Value for attribute data-unless is "{{ value }}" must not contains "{{" or "}}"
+In file: /magery-tests/components/3022-variable-in-data-unless/template.html
+At line: 1
+Value for attribute data-unless must not contains "{{" or "}}"
+  <a data-unless="{{ value }}"> link </a>
+                  ^^^^^^^^^^^
